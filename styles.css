@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1abeff;
+}
+
+.navbar {
+    background-color: #1abeff;
+    color: white;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.header {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffc6dc;
+    color: #333;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.recipes, .desserts {
+    padding: 20px;
+}
+
+.recipes h2, .desserts h2 {
+    text-align: center;
+    color: #333;
+}
+
+.recipe, .dessert {
+    background-color: #ffc6dc;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.recipe img, .dessert img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe h3, .dessert h3 {
+    color: #333;
+}
+
+.recipe p, .dessert p {
+    color: #555;
+}
+
+.recipe:hover, .dessert:hover {
+    transform: scale(1.05);
+}
+
+.comments {
+    padding: 20px;
+    background-color: #1abeff;
+}
+
+.comments h2 {
+    text-align: center;
+    color: #333;
+}
+
+.comments form {
+    margin-bottom: 20px;
+}
+
+.comments input,
+.comments textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffc6dc;
+    border-radius: 4px;
+}
+
+.comments button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.comments button:hover {
+    background-color: #555;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1abeff;
+    color: white;
+}
